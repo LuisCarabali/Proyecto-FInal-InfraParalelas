@@ -93,6 +93,8 @@ Instalar dependencias (docker, python3, etc.)
 
 Ejecutar: docker-compose up --build -d
 
+Accede en: http://13.59.51.54:8000/docs
+
 📊 Resultados
 Versión	Precisión	Tiempo aprox
 Secuencial	0.9759	~0.4 s
