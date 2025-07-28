@@ -1,0 +1,11 @@
+# docker-compose.yml
+
+version: "3.8"
+
+services:
+  ray-api:
+    build:
+      context: ./api_service
+    ports:
+      - "8000:8000"
+    restart: always
